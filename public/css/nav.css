@@ -1,0 +1,6 @@
+nav{
+    /* background: #e5e5e5; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

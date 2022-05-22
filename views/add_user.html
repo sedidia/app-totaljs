@@ -1,0 +1,15 @@
+@{import('meta', 'head', 'add_user.js', 'favicon.ico')}
+<!-- enlever le système de layout 👇 -->
+@{layout('')}
+<h1>Ajoutez un utilisateur</h1>
+
+<!-- boucler sur les utilisateurs -->
+<form action="/utilisateurs/create/" method="post" id="ajouter_utilisateur">
+    <input type="text" name="nom" placeholder="nom">
+    <input type="text" name="prenom" placeholder="prenom">
+    <input type="email" name="email" placeholder="email">
+    <input type="number" name="phone" placeholder="tel">
+    <input type="text" name="adresse" placeholder="adrese">
+
+    <input type="submit" value="Ajouter">
+</form>

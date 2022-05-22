@@ -1,0 +1,56 @@
+{
+	"pid": 14320,
+	"date": "2022-05-22T21:59:05.381Z",
+	"port": 8000,
+	"ip": "0.0.0.0",
+	"stats": [
+		{
+			"id": null,
+			"version": {
+				"node": "v14.17.3",
+				"total": "4",
+				"build": 4060,
+				"app": "1.0.0"
+			},
+			"pid": 14320,
+			"thread": "",
+			"mode": "debug",
+			"overload": 0,
+			"date": "2022-05-22T22:17:05.649Z",
+			"textdb": {
+				"size": 0,
+				"pendingwrite": 0,
+				"pendingread": 0,
+				"duration": 0,
+				"documents": 2,
+				"reading": 0,
+				"writing": 0
+			},
+			"memory": 7.83,
+			"rm": 0,
+			"fm": 0,
+			"wm": 0,
+			"em": 0,
+			"mm": 0,
+			"om": 0,
+			"dm": 0,
+			"um": 0,
+			"pm": 0,
+			"sm": 0,
+			"cm": 0,
+			"dbrm": 0,
+			"dbwm": 0,
+			"usage": 4,
+			"requests": 63,
+			"pending": 0,
+			"external": 0,
+			"errors": 5,
+			"timeouts": 0,
+			"online": 0,
+			"uptime": 19,
+			"download": 0,
+			"upload": 0.009,
+			"lasterror": "2022-05-22T22:13:57.344Z C:/wamp64/www/dev_web/app-totaljs/tmp/merged_js_l3hudp1u4514700873.min.js - Error: ENOENT: no such file or directory, open 'C:\\wamp64\\www\\dev_web\\app-totaljs\\public\\js\\ui.js'"
+		}
+	]
+}

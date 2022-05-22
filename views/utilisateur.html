@@ -1,0 +1,16 @@
+@{import('meta', 'head', 'default.js + ui.js', 'favicon.ico')}
+<!-- enlever le système de layout 👇 -->
+@{layout('')}
+<h1>Un utilisateur en particulier</h1>
+
+<!-- boucler sur les utilisateurs -->
+<a href="/">Accueil</a>
+<a href="/add_user/">Ajouter un utilisateur</a>
+<ul class="ul">
+    @{foreach user in model}
+        <li>@{user.prenom} @{user.nom} @{user.email}</li>
+        <a href="/utilisateurs/@{user.id}/">read</a>
+        <a href="/add_user/@{user.id}/">Modifier</a>
+        <button class="delete">Suprimer</button><br><br>
+    @{end}
+</ul>
